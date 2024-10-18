@@ -6,7 +6,7 @@ import java.net.*;
 public class Client2 {
     final static int PORT = 1234;  // Port du serveur
     final static String HOST = "localhost";  // Adresse du serveur
-
+    
     public static void main(String[] args) {
         try (Socket clientSocket = new Socket(HOST, PORT)) {
             BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));

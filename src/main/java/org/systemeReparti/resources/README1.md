@@ -37,3 +37,7 @@ pourquoi ? : les flux et sockets sont fermes manuellment  avec close() , des res
 donc provoquer des fuites . 
 solution : utilisation de try-with-resources pour garantir la fermeture automatique des ressources en cas d'erreur. 
 
+
+selon la seance de tp :
+probleme de methodes blocckantes dans le code , la solution est de faire java.nio
+
